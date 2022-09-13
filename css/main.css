@@ -328,10 +328,6 @@ body {
   content: "";
 }
 
-.input-wrapper {
-  position: relative;
-}
-
 .form-control:focus {
   -webkit-box-shadow: none;
           box-shadow: none;
@@ -340,9 +336,12 @@ body {
 .hero__form {
   background-color: #f9f9f9;
   border-radius: 0 12px 12px 0;
-  padding-right: 30px;
   border-left: none;
   border: none;
+}
+
+.input-wrapper {
+  position: relative;
 }
 
 .input-wrapper::after {
@@ -354,6 +353,28 @@ body {
   height: 16px;
   background-image: url("../images/search-icon.svg");
   background-repeat: no-repeat;
+  content: "";
+}
+
+.header__dropdown {
+  position: relative;
+  font-family: "Poppins";
+  font-size: 15px;
+  line-height: 22px;
+  font-weight: 500;
+  margin-right: 35px;
+  color: var(--body-title);
+  border: none;
+  background-color: transparent;
+}
+.header__dropdown::before {
+  position: absolute;
+  top: 10px;
+  right: -10px;
+  background-image: url("../images/form-dropdown-icon.svg");
+  background-repeat: no-repeat;
+  width: 10px;
+  height: 8px;
   content: "";
 }
 
@@ -423,28 +444,6 @@ body {
   list-style: none;
 }
 
-.header__link {
-  position: relative;
-  display: inline-block;
-  font-family: "Poppins";
-  font-weight: 500;
-  font-size: 15px;
-  line-height: 22px;
-  margin-right: 54px;
-  color: var(--body-title);
-  text-decoration: none;
-}
-.header__link::before {
-  position: absolute;
-  top: 10px;
-  right: -20px;
-  background-image: url("../images/form-dropdown-icon.svg");
-  background-repeat: no-repeat;
-  width: 10px;
-  height: 8px;
-  content: "";
-}
-
 /* Nav end */
 @media only screen and (min-width: 320px) {
   .header__top-phone {
@@ -483,4 +482,12 @@ body {
   font-size: 12px;
   line-height: 18px;
   color: #151515;
+}
+
+.oval {
+  width: 20px;
+  height: 20px;
+  background-color: #fff;
+  border: 5px solid #6A983C;
+  border-radius: 50%;
 }/*# sourceMappingURL=main.css.map */
