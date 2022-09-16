@@ -1,0 +1,132 @@
+.more,
+.related{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    color: $black;
+}
+
+.detail-product-list{
+    margin-top: 37px;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+}
+
+
+.detail-pr-item{
+    position: relative;
+    max-width: 268px;
+    border: 1px solid #D1D1D1;
+    border-radius: 12px;
+    padding: 16px;
+
+    &:nth-child(3)::before{
+        position: absolute;
+        top: 26px;
+        left: 25px;
+        padding: 4px 10px;
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 18px;
+        color: #6A983C;
+        background-color: #F4F8EC;
+        border-radius: 12px;
+        content: "- 36 %";
+    }
+
+}
+
+
+.pr-img{
+    width: 100%;
+    margin-bottom: 16px;
+    border-radius: 12px; 
+}
+
+.pr-item-title{
+    margin-bottom: 4px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 22px;
+    color: #151515;
+}
+
+.pr-item-text{
+    margin-bottom: 21px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #575757;
+}
+
+.pr-prices{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.pr-price-text{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    color: $black;
+}
+
+.buyme{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 22px;
+    background-color: #6A983C;
+    border: 2px solid #46760A;
+    border-radius: 12px;
+}
+
+
+@include desktop-first(1136px){
+    .detail-product-list{
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+        justify-items: center;
+        gap: 50px;
+    }
+}
+
+@include desktop-first(575px){
+    .detail-product-list{
+        grid-template-rows: 1fr;
+        grid-template-columns: 1fr;
+        justify-items: center;
+        gap: 50px;
+    }
+    
+}
+
+@include desktop-first(420px){
+    .more,
+    .related{
+        font-size: 15px;
+    }
+}
+
+@include desktop-first(375px){
+    .more,
+    .related{
+        font-size: 12px;
+    }
+}
+
+
+

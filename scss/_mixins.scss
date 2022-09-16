@@ -18,12 +18,7 @@
     }
 }
 
-@mixin flexbox($justify:space-between, $align:center, $direction){
-    display: flex;
-    justify-content: $justify;
-    align-items: $align;
-    flex-direction: $direction;
-}
+
 
 @mixin list-unstyle{
     margin: 0;
@@ -41,19 +36,10 @@
     text-decoration: none;
 }
 
-@mixin psevdoelements($display:inline-block, $width, $height, $content: ""){
-    display: $display;
-    width: $width;
-    height: $height;
-    content: $content;
-}
 
 
-@mixin bgImages($position-x:calc(50% + 0px), $repeat:no-repeat, $size){
-    background-size: $size;
-    background-position: $position-x center;
-    background-repeat: $repeat;
-}
+
+
 
 @mixin  bgRetinaImages{
     @media
