@@ -1,0 +1,112 @@
+.category-heading {
+  font-family: 'Poppins';
+}
+
+.light-gray {
+  color: #a9a9a9;
+}
+
+.svg-img {
+  margin-right: 4px;
+  color: #a9a9a9;
+}
+
+.active-item .nav-link {
+  color: #151515;
+}
+
+.active-item .svg-img {
+  color: #6a983c;
+}
+
+.active-item .badge-style {
+  color: #6a983c !important;
+  background-color: #f4f8ec !important;
+}
+.product-news{
+  color: #6a983c;
+  background-color: #F4F8EC;
+}
+.product-egg {
+  max-width: 569px;
+  background-image: url("../../images/egg.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.product-salad {
+  max-width: 569px;
+  background-image: url("../../images/chicken.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  
+}
+.product-tag-link{
+  font-family: 'Poppins';
+  display: inline-block;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 18px;
+  margin-bottom: 195px;
+  color: #6A983C;
+  background-color: #F4F8EC;
+  border-radius: 12px;
+}
+.product-strong{
+  font-family: 'Poppins';
+  max-width: 388px;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 33px;
+  color: #FFFFFF;
+}
+.arch-input{
+  position: relative;
+  background: #F9F9F9;
+  border-radius: 12px;
+}
+.btn-arch{
+  position: absolute;
+  top: 8px;
+  right: 9px;
+  font-size: 17px;
+  font-weight: 700;
+  border:none;
+  background: transparent;
+}
+.product-tag-link-tag{
+  display: block;
+  width: 40px;
+  color: #6A983C; 
+  background-color: #F4F8EC;
+  margin-bottom: 0;
+}
+.product-author{
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  margin: 0;
+  color: #151515;
+}
+.product-card{
+  width: 279px;
+}
+.product-inpul{
+  max-width: 267px;
+  margin: 0 auto;
+}
+.bg-green {
+  background-color: #6a983c;
+}
+.light-green {
+  background-color: #f4f8ec;
+}
+.product-dropdovn{
+  border: 2px solid #46760A;
+  border-radius: 12px;
+}
+.product-navigation-bottom{
+  margin-bottom: 64px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  background-color: #FDFDFD;
+}

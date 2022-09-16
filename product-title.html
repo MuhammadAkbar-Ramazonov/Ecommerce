@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ecommerce</title>
+  <link rel="stylesheet" href="./bootstrap-5.2.1-dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+  
+  <!-- Header top start -->
+  <div class="ecommerce-container pt-3 mb-5">
+    <div class="row d-md-flex border__bottom">
+      <div class="col-12 col-md-6 d-flex justify-content-between justify-content-md-start mb-3 mb-md-0">
+        <span class="header__top-span">
+          Chat with us
+        </span>
+        <a class="header__top-phone" href="tel:">+420 336 775 664</a>
+        <span class="header__top-com">info@freshnesecom.com</span>
+      </div>
+      <div class="col-12 col-md-6">
+        <ul class="header__top-list d-flex justify-content-center justify-content-md-end">
+          <li class="header__top-item">
+            <a class="header__top-link me-5 me-md-0" href="#">
+              Blog
+            </a>
+          </li>
+          <li class="header__top-item">
+            <a class="header__top-link me-5 me-md-0 ms-md-3 ms-lg-5" href="#">
+              About Us
+            </a>
+          </li>
+          <li class="header__top-item">
+            <a class="header__top-link ms-md-3 ms-lg-5" href="#">
+              Careers
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="row align-items-center pt-5">
+      <div class="col-12 col-md-4 mb-3 mb-md-0 d-flex align-items-center justify-content-between">
+        <a href="index.html">
+          <img src="images/site-logo.svg" alt="site-logo">
+        </a>
+        <div class="hero__images d-flex d-md-none">
+          <img src="images/user-icon.svg" alt="user-icon">
+          <img src="images/cart-icon.svg" class="ms-4" alt="cart-icon">
+          <span class="hero__four">4</span>
+        </div>
+      </div>
+      <div class="col-12 col-md-5">
+        <div class="input-wrapper input-group mb-3 mb-md-0">
+          <button class="btn btn-outline-secondary hero__dropdown pe-5" type="button" data-bs-toggle="dropdown" aria-expanded="false">All categories
+          </button>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Bakery</a></li>
+            <li><a class="dropdown-item" href="#">Fruit and vegetables</a></li>
+            <li><a class="dropdown-item" href="#">Meat and fish</a></li>
+            <li><a class="dropdown-item" href="#">Drinks</a></li>
+            <li><a class="dropdown-item" href="#">Kitchen</a></li>
+            <li><a class="dropdown-item" href="#">Special nutrition</a></li>
+            <li><a class="dropdown-item" href="#">Baby</a></li>
+            <li><a class="dropdown-item" href="#">Pharmacy</a></li>
+          </ul>
+          <input type="search" class="form-control hero__form ps-0" aria-label="Text input with dropdown button" placeholder="Search Products, categories ...">
+        </div>
+      </div>
+      <div class="col-12 col-md-3">
+        <div class="d-none d-md-flex justify-content-md-end align-items-center ">
+          <img src="images/user-icon.svg" alt="user-icon">
+          <img src="images/cart-icon.svg"  class="ms-5" alt="cart-icon">
+          <span class="hero__four hero__four-add">4</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Header top end -->
+  
+  <!-- Header start -->
+  <header class="header py-3 mb-3">
+    <div class="ecommerce-container">
+      <nav class="header__nav ps-4 ps-md-0">
+        <ul class="header__list mb-0 d-flex flex-column align-items-center flex-md-row flex-md-wrap">
+          <li class="header__item">
+            <div class="dropdown">
+              <button class="header__dropdown" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Bakery
+              </button>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Fruit and vegetables</a></li>
+                <li><a class="dropdown-item" href="#">Meat and fish</a></li>
+                <li><a class="dropdown-item" href="#">Drinks</a></li>
+                <li><a class="dropdown-item" href="#">Kitchen</a></li>
+                <li><a class="dropdown-item" href="#">Special nutrition</a></li>
+                <li><a class="dropdown-item" href="#">Baby</a></li>
+                <li><a class="dropdown-item" href="#">Pharmacy</a></li>
+              </ul>
+            </div>
+          </li>
+          <li class="header__item">
+            <div class="dropdown">
+              <button class="header__dropdown" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Fruit and vegetables
+              </button>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Bakery</a></li>
+                <li><a class="dropdown-item" href="#">Meat and fish</a></li>
+                <li><a class="dropdown-item" href="#">Drinks</a></li>
+                <li><a class="dropdown-item" href="#">Kitchen</a></li>
+                <li><a class="dropdown-item" href="#">Special nutrition</a></li>
+                <li><a class="dropdown-item" href="#">Baby</a></li>
+                <li><a class="dropdown-item" href="#">Pharmacy</a></li>
+              </ul>
+            </div>
+          </li>
+          <li class="header__item">
+            <div class="dropdown">
+              <button class="header__dropdown" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Meat and fish
+              </button>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Fruit and vegetables</a></li>
+                <li><a class="dropdown-item" href="#">Bakery</a></li>
+                <li><a class="dropdown-item" href="#">Drinks</a></li>
+                <li><a class="dropdown-item" href="#">Kitchen</a></li>
+                <li><a class="dropdown-item" href="#">Special nutrition</a></li>
+                <li><a class="dropdown-item" href="#">Baby</a></li>
+                <li><a class="dropdown-item" href="#">Pharmacy</a></li>
+              </ul>
+            </div>
+          </li>
+          <li class="header__item">
+            <div class="dropdown">
+              <button class="header__dropdown" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Drinks
+              </button>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Fruit and vegetables</a></li>
+                <li><a class="dropdown-item" href="#">Meat and fish</a></li>
+                <li><a class="dropdown-item" href="#">Bakery</a></li>
+                <li><a class="dropdown-item" href="#">Kitchen</a></li>
+                <li><a class="dropdown-item" href="#">Special nutrition</a></li>
+                <li><a class="dropdown-item" href="#">Baby</a></li>
+                <li><a class="dropdown-item" href="#">Pharmacy</a></li>
+              </ul>
+            </div>
+          </li>
+          <li class="header__item">
+            <div class="dropdown">
+              <button class="header__dropdown" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Kitchen
+              </button>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Fruit and vegetables</a></li>
+                <li><a class="dropdown-item" href="#">Meat and fish</a></li>
+                
+                <li><a class="dropdown-item" href="#">Drinks</a></li>
+                <li><a class="dropdown-item" href="#">Bakery</a></li>
+                <li><a class="dropdown-item" href="#">Special nutrition</a></li>
+                <li><a class="dropdown-item" href="#">Baby</a></li>
+                <li><a class="dropdown-item" href="#">Pharmacy</a></li>
+              </ul>
+            </div>
+          </li>
+          <li class="header__item">
+            <div class="dropdown">
+              <button class="header__dropdown" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Special nutrition
+              </button>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Fruit and vegetables</a></li>
+                <li><a class="dropdown-item" href="#">Meat and fish</a></li>
+                <li><a class="dropdown-item" href="#">Drinks</a></li>
+                <li><a class="dropdown-item" href="#">Kitchen</a></li>
+                <li><a class="dropdown-item" href="#">Bakery</a></li>
+                <li><a class="dropdown-item" href="#">Baby</a></li>
+                <li><a class="dropdown-item" href="#">Pharmacy</a></li>
+              </ul>
+            </div>
+          </li>
+          <li class="header__item">
+            <div class="dropdown">
+              <button class="header__dropdown" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Baby
+              </button>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Fruit and vegetables</a></li>
+                <li><a class="dropdown-item" href="#">Meat and fish</a></li>
+                <li><a class="dropdown-item" href="#">Drinks</a></li>
+                <li><a class="dropdown-item" href="#">Kitchen</a></li>
+                <li><a class="dropdown-item" href="#">Special nutrition</a></li>
+                <li><a class="dropdown-item" href="#">Bakery</a></li>
+                <li><a class="dropdown-item" href="#">Pharmacy</a></li>
+              </ul>
+            </div>
+          </li>
+          <li class="header__item">
+            <div class="dropdown">
+              <button class="header__dropdown" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Pharmacy
+              </button>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Fruit and vegetables</a></li>
+                <li><a class="dropdown-item" href="#">Meat and fish</a></li>
+                <li><a class="dropdown-item" href="#">Drinks</a></li>
+                <li><a class="dropdown-item" href="#">Kitchen</a></li>
+                <li><a class="dropdown-item" href="#">Special nutrition</a></li>
+                <li><a class="dropdown-item" href="#">Baby</a></li>
+                <li><a class="dropdown-item" href="#">Bakery</a></li>
+              </ul>
+            </div>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <!-- Header end -->
+  
+  <!-- site main start -->
+  <main class="site-main">
+    
+    <!-- hero section start -->
+    <section class="product-title-hero">
+      <div class="ecommerce-container">
+        <nav class="py-3" aria-label="breadcrumb">
+          <ol class="breadcrumb mb-0">
+            <li class="breadcrumb-item "><a class="text-secondary text-decoration-none" href="./index.html">Homepage</a></li>
+            <li class="breadcrumb-item "><a class="text-secondary text-decoration-none" href="./category.html">Fruit and vegetables</a></li>
+            <li class="breadcrumb-item active text-dark" aria-current="page">Product title</li>
+          </ol>
+        </nav>
+        <div class=" mb-5 d-flex align-items-center justify-content-between py-3">
+          <h2 class="text-dark fw-bold category-heading">Fruit and vegetables</h2>
+          <ul class="nav">
+            <li class="nav-item top-item active-item">
+              <a class="nav-link light-gray top-link d-flex align-items-center" aria-current="page" href="#">
+                <svg class="svg-img" width="16" height="16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M13.333 1.333H2.666c-.736 0-1.333.597-1.333 1.334v10.666c0 .737.597 1.334 1.333 1.334h10.667c.736 0 1.333-.597 1.333-1.334V2.667c0-.737-.597-1.334-1.333-1.334ZM1.333 8h13.333M8 1.333v13.334" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                Grid view
+              </a>
+            </li>
+            <li class="nav-item top-item">
+              <a class="nav-link light-gray top-link d-flex align-items-center" href="#">
+                <svg class="svg-img" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M13.333 1.33331H2.66634C1.92996 1.33331 1.33301 1.93027 1.33301 2.66665V13.3333C1.33301 14.0697 1.92996 14.6666 2.66634 14.6666H13.333C14.0694 14.6666 14.6663 14.0697 14.6663 13.3333V2.66665C14.6663 1.93027 14.0694 1.33331 13.333 1.33331Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M1.33301 4.66663H14.6663" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M1.33301 8H14.6663" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M1.33301 11.3333H14.6663" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+                List view
+              </a>
+            </li>
+            <li class="nav-item top-item d-flex align-items-center">
+              <span class="product-news badge rounded-pill badge-style">117</span>
+              <a class="nav-link light-gray top-link d-flex align-items-center ps-1" href="#">Projects</a>
+            </li>
+          </ul>
+        </div>
+        <div class="row mb-5 justify-content-center justify-content-xl-between">
+          <div class="col-12 col-xl-6 rounded-4 product-egg p-4 bg-red d-inline-block mb-4 mb-xl-0">
+            <a class="product-tag-link px-2 text-decoration-none" href="#">Tag</a>
+            <div>
+              <strong class="d-block mb-2 product-strong">This is a space for your blog headline, it can be long don’t worry about that</strong>
+              <div class="d-flex align-items-center">
+                <img class="me-2" src="./images/author.png" alt="Author img">
+                <p class="me-3 mb-0 text-light">Author</p>
+                <p class="mb-0 text-light">17. 6. 2020</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-xl-6 rounded-4 product-salad p-4 bg-red d-inline-block">
+            <a class="product-tag-link px-2 text-decoration-none" href="#">Tag</a>
+            <div>
+              <strong class="d-block mb-2 product-strong">This is a space for your blog headline, it can be long don’t worry about that</strong>
+              <div  class="d-flex align-items-center">
+                <img class="me-2" src="./images/author.png" alt="Author img">
+                <p class="me-3 mb-0 text-light">Author</p>
+                <p class="mb-0 text-light">17. 6. 2020</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-center mt-5 mb-5">
+          <div class="col-12 col-lg-3 text-center text-xl-start mb-4 mb-xl-0">
+            <div class="mb-5">
+              <strong class="d-inline-block mb-3">Archives</strong>
+              <ul class="footer__list text-lg-start">
+                <li class="footer__item">
+                  <a class="footer__link mb-3 text-decoration-underline" href="#">March 2020</a>
+                </li>
+                <li class="footer__item">
+                  <a class="footer__link mb-3 text-decoration-underline" href="#">February 2020</a>
+                </li>
+                <li class="footer__item">
+                  <a class="footer__link mb-3 text-decoration-underline" href="#">January 2020</a>
+                </li>
+                <li class="footer__item">
+                  <a class="footer__link mb-3 text-decoration-underline" href="#">November 2019</a>
+                </li>
+                <li class="footer__item">
+                  <a class="footer__link mb-3 text-decoration-underline" href="#">December 2019</a>
+                </li>
+              </ul>
+            </div>
+            <div class="mb-5">
+              <strong class="d-inline-block mb-3">Category</strong>
+              <ul class="footer__list  text-lg-start">
+                <li class="footer__item">
+                  <a class="footer__link text-secondary mb-3 text-decoration-underline" href="#">Food</a>
+                </li>
+                <li class="footer__item">
+                  <a class="footer__link text-secondary mb-3 text-decoration-underline" href="#">Chefs specialities</a>
+                </li>
+                <li class="footer__item">
+                  <a class="footer__link text-secondary mb-3 text-decoration-underline" href="#">Vegetable</a>
+                </li>
+                <li class="footer__item">
+                  <a class="footer__link text-secondary mb-3 text-decoration-underline" href="#">Meat</a>
+                </li>
+                <li class="footer__item">
+                  <a class="footer__link text-secondary mb-3 text-decoration-underline" href="#">Recommendations</a>
+                </li>
+              </ul>
+            </div>
+            <div class="product-inpul">
+              <strong class="d-inline-block mb-3">Join our list</strong>
+              <p class="text-secondary mb-4">Signup to be the first to hear about exclusive deals, special offers, recepies from our masters and others.</p>
+              <div class="arch-input">
+                <input type="email" class="form-control" aria-label="Text input with dropdown button" placeholder="Your email address">
+                <button class="btn-arch " type="button" data-bs-toggle="dropdown" aria-expanded="false">Subscribe</button>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col-10 col-xl-9">
+            <ul class="row g-4 list-unstyled justify-content-center justify-content-md-start">
+              <li class="col-sm-12 col-md-6 col-lg-4 col-xl-4  ">
+                <div class="product-card">
+                  <img class="mb-3" src="./images/apelsin.png" alt="Apelsin img">
+                  <a class="product-tag-link product-tag-link-tag mb-2 px-2 text-decoration-none" href="#">Tag</a>
+                  <strong class="d-inline-block mb-3">Space for your heding is here, write what you need</strong>
+                  <div class="d-flex">
+                    <p class="product-author me-3">Author</p>
+                    <p class="product-author">15. 6. 2020</p>
+                  </div>
+                </div>
+              </li>
+              <li class="col-sm-12 col-md-6 col-lg-4 col-xl-4  ">
+                <div class="product-card">
+                  <img class="mb-3" src="./images/k-cake.png" alt="cake img">
+                  <a class="product-tag-link product-tag-link-tag mb-2 px-2 text-decoration-none" href="#">Tag</a>
+                  <strong class="d-inline-block mb-3">Space for your heding is here, write what you need</strong>
+                  <div class="d-flex">
+                    <p class="product-author me-3">Author</p>
+                    <p class="product-author">15. 6. 2020</p>
+                  </div>
+                </div>
+              </li>
+              <li class="col-sm-12 col-md-6 col-lg-4 col-xl-4  ">
+                <div class="product-card">
+                  <img class="mb-3" src="./images/k-salad.png" alt="salad img">
+                  <a class="product-tag-link product-tag-link-tag mb-2 px-2 text-decoration-none" href="#">Tag</a>
+                  <strong class="d-inline-block mb-3">Space for your heding is here, write what you need</strong>
+                  <div class="d-flex">
+                    <p class="product-author me-3">Author</p>
+                    <p class="product-author">15. 6. 2020</p>
+                  </div>
+                </div>
+              </li>
+              <li class="col-sm-12 col-md-6 col-lg-4 col-xl-4  ">
+                <div class="product-card">
+                  <img class="mb-3" src="./images/k-green.png" alt="Green img">
+                  <a class="product-tag-link product-tag-link-tag mb-2 px-2 text-decoration-none" href="#">Tag</a>
+                  <strong class="d-inline-block mb-3">Space for your heding is here, write what you need</strong>
+                  <div class="d-flex">
+                    <p class="product-author me-3">Author</p>
+                    <p class="product-author">15. 6. 2020</p>
+                  </div>
+                </div>
+              </li>
+              <li class="col-sm-12 col-md-6 col-lg-4 col-xl-4  ">
+                <div class="product-card">
+                  <img class="mb-3" src="./images/k-lemon.png" alt="lemon img">
+                  <a class="product-tag-link product-tag-link-tag mb-2 px-2 text-decoration-none" href="#">Tag</a>
+                  <strong class="d-inline-block mb-3">Space for your heding is here, write what you need</strong>
+                  <div class="d-flex">
+                    <p class="product-author me-3">Author</p>
+                    <p class="product-author">15. 6. 2020</p>
+                  </div>
+                </div>
+              </li>
+              <li class="col-sm-12 col-md-6 col-lg-4 col-xl-4  ">
+                <div class="product-card">
+                  <img class="mb-3" src="./images/k-meal.png" alt="Meal img">
+                  <a class="product-tag-link product-tag-link-tag mb-2 px-2 text-decoration-none" href="#">Tag</a>
+                  <strong class="d-inline-block mb-3">Space for your heding is here, write what you need</strong>
+                  <div class="d-flex">
+                    <p class="product-author me-3">Author</p>
+                    <p class="product-author">15. 6. 2020</p>
+                  </div>
+                </div>
+              </li>
+              <li class="col-sm-12 col-md-6 col-lg-4 col-xl-4  ">
+                <div class="product-card">
+                  <img class="mb-3" src="./images/k-pasta.png" alt="Pasta img">
+                  <a class="product-tag-link product-tag-link-tag mb-2 px-2 text-decoration-none" href="#">Tag</a>
+                  <strong class="d-inline-block mb-3">Space for your heding is here, write what you need</strong>
+                  <div class="d-flex">
+                    <p class="product-author me-3">Author</p>
+                    <p class="product-author">15. 6. 2020</p>
+                  </div>
+                </div>
+              </li>
+              <li class="col-sm-12 col-md-6 col-lg-4 col-xl-4  ">
+                <div class="product-card">
+                  <img class="mb-3" src="./images/k-delicious.png" alt="D elicious img">
+                  <a class="product-tag-link product-tag-link-tag mb-2 px-2 text-decoration-none" href="#">Tag</a>
+                  <strong class="d-inline-block mb-3">Space for your heding is here, write what you need</strong>
+                  <div class="d-flex">
+                    <p class="product-author me-3">Author</p>
+                    <p class="product-author">15. 6. 2020</p>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="product-navigation-bottom py-3">
+        <div class="ecommerce-container">
+          <div class="d-flex align-items-center justify-content-between">
+            <div class="d-flex align-items-center">
+              <p class="text-secondary me-2 mb-0">Page:</p>
+              <nav style="--bs-breadcrumb-divider: '';" aria-label="breadcrumb">
+                <ol class="breadcrumb mb-0">
+                  <li class="breadcrumb-item active me-2 text-success" aria-current="page">1</li>
+                  <li class="breadcrumb-item"><a class="text-decoration-none text-black" href="#">2</a></li>
+                  <li class="breadcrumb-item"><a class="text-decoration-none text-black" href="#">3</a></li>
+                  <li class="breadcrumb-item"><a class="text-decoration-none text-black" href="#">4</a></li>
+                </ol>
+              </nav>
+            </div>
+            
+            <div class="btn-group dropend">
+              <button type="button" class="btn btn-secondary bg-green product-dropdovn text-light fw-bold dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                Next page
+              </button>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>              
+              </ul>
+            </div>
+            <div class="d-flex align-items-center">
+              <a class="text-decoration-none badge light-green text-success me-1">198</a>
+              <p class="text-secondary mb-0">articles</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- hero section finish -->
+    
+  </main>
+  <!-- site main finish -->
+  
+  <!-- Footer start -->
+  <footer class="footer">
+    <div class="ecommerce-container">
+      <div class="row mb-5">
+        <div class="col-12 col-md-6 col-lg-3">
+          <h2 class="footer__title text-center text-lg-start">
+            Get in touch
+          </h2>
+          <ul class="footer__list text-center text-lg-start">
+            <li class="footer__item">
+              <a class="footer__link mb-3" href="#">About Us</a>
+            </li>
+            <li class="footer__item">
+              <a class="footer__link mb-3" href="#">Careers</a>
+            </li>
+            <li class="footer__item">
+              <a class="footer__link mb-3" href="#">Press Releases</a>
+            </li>
+            <li class="footer__item">
+              <a class="footer__link mb-3" href="#">Blog</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-12 col-md-6 col-lg-3">
+          <h2 class="footer__title text-center text-lg-start">
+            Connections
+          </h2>
+          <ul class="footer__list text-center text-lg-start">
+            <li class="footer__item">
+              <a class="footer__link mb-3" href="#">Facebook</a>
+            </li>
+            <li class="footer__item">
+              <a class="footer__link mb-3" href="#">Twitter</a>
+            </li>
+            <li class="footer__item">
+              <a class="footer__link mb-3" href="#">Instagram</a>
+            </li>
+            <li class="footer__item">
+              <a class="footer__link mb-3" href="#">Youtube</a>
+            </li>
+            <li class="footer__item">
+              <a class="footer__link mb-3" href="#">LinkedIn</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-12 col-md-6 col-lg-3">
+          <h2 class="footer__title text-center text-lg-start">
+            Earnings
+          </h2>
+          <ul class="footer__list text-center text-lg-start">
+            <li class="footer__item">
+              <a class="footer__link mb-3" href="#">Become an Affiliate</a>
+            </li>
+            <li class="footer__item">
+              <a class="footer__link mb-3" href="#">Advertise your product</a>
+            </li>
+            <li class="footer__item">
+              <a class="footer__link mb-3" href="#">Sell on Market</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-12 col-md-6 col-lg-3">
+          <h2 class="footer__title text-center text-lg-start">
+            Account
+          </h2>
+          <ul class="footer__list text-center text-lg-start">
+            <li class="footer__item">
+              <a class="footer__link mb-3" href="#">Your account</a>
+            </li>
+            <li class="footer__item">
+              <a class="footer__link mb-3" href="#">Returns Centre</a>
+            </li>
+            <li class="footer__item">
+              <a class="footer__link mb-3" href="#">100 % purchase protection</a>
+            </li>
+            <li class="footer__item">
+              <a class="footer__link mb-3" href="#">Chat with us</a>
+            </li>
+            <li class="footer__item">
+              <a class="footer__link" href="#">Help</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="row mb-5">
+        <div class="col-12">
+          <h2 class="footer__title text-center text-md-start">
+            Product tags
+          </h2>
+          <div class="d-flex flex-wrap">
+            <span class="footer__span">Beans</span>
+            <span class="footer__span">Carrots</span>
+            <span class="footer__span">Apples</span>
+            <span class="footer__span">Garlic</span>
+            <span class="footer__span">Mushrooms</span>
+            <span class="footer__span">Tomatoes</span>
+            <span class="footer__span">Chilli peppers</span>
+            <span class="footer__span">Broccoli</span>
+            <span class="footer__span">Watermelons</span>
+            <span class="footer__span">Oranges</span>
+            <span class="footer__span">Bananas</span>
+            <span class="footer__span">Grapes</span>
+            
+            <span class="footer__span">Cherries</span>
+            <span class="footer__span">Meat</span>
+            <span class="footer__span">Seo tag</span>
+            <span class="footer__span">Fish</span>
+            <span class="footer__span">Seo tag</span>
+            <span class="footer__span">Fresh food</span>
+            <span class="footer__span">Lemons</span>
+          </div>
+        </div>
+      </div>
+      <p class="footer__text">
+        Copyright © 2020 petrbilek.com
+      </p>
+    </div>
+  </footer>
+  <!-- Footer end -->
+  
+  <script src="./js/main.js"></script>
+</body>
+</html>

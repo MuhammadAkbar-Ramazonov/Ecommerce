@@ -601,7 +601,7 @@ body {
   position: absolute;
   top: 2px;
   left: 0px;
-  background-image: url("../../images/heart-icon.svg");
+  background-image: url("../../images/heart-red.svg");
   background-repeat: no-repeat;
   width: 15px;
   height: 11px;
@@ -776,4 +776,178 @@ body {
   padding: 12px 20px;
   border: 1px solid #D1D1D1;
   border-radius: 12px;
-}/*# sourceMappingURL=main.css.map */
+}
+
+.category-heading {
+  font-family: "Poppins";
+}
+
+.light-gray {
+  color: #a9a9a9;
+}
+
+.svg-img {
+  margin-right: 4px;
+  color: #a9a9a9;
+}
+
+.active-item .nav-link {
+  color: #151515;
+}
+
+.active-item .svg-img {
+  color: #6a983c;
+}
+
+.active-item .badge-style {
+  color: #6a983c !important;
+  background-color: #f4f8ec !important;
+}
+
+.product-news {
+  color: #6a983c;
+  background-color: #F4F8EC;
+}
+
+.product-egg {
+  max-width: 569px;
+  background-image: url("../../images/egg.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.product-salad {
+  max-width: 569px;
+  background-image: url("../../images/chicken.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.product-tag-link {
+  font-family: "Poppins";
+  display: inline-block;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 18px;
+  margin-bottom: 195px;
+  color: #6A983C;
+  background-color: #F4F8EC;
+  border-radius: 12px;
+}
+
+.product-strong {
+  font-family: "Poppins";
+  max-width: 388px;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 33px;
+  color: #FFFFFF;
+}
+
+.arch-input {
+  position: relative;
+  background: #F9F9F9;
+  border-radius: 12px;
+}
+
+.btn-arch {
+  position: absolute;
+  top: 8px;
+  right: 9px;
+  font-size: 17px;
+  font-weight: 700;
+  border: none;
+  background: transparent;
+}
+
+.product-tag-link-tag {
+  display: block;
+  width: 40px;
+  color: #6A983C;
+  background-color: #F4F8EC;
+  margin-bottom: 0;
+}
+
+.product-author {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  margin: 0;
+  color: #151515;
+}
+
+.product-card {
+  width: 279px;
+}
+
+.product-inpul {
+  max-width: 267px;
+  margin: 0 auto;
+}
+
+.bg-green {
+  background-color: #6a983c;
+}
+
+.light-green {
+  background-color: #f4f8ec;
+}
+
+.product-dropdovn {
+  border: 2px solid #46760A;
+  border-radius: 12px;
+}
+
+.product-navigation-bottom {
+  margin-bottom: 64px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  background-color: #FDFDFD;
+}
+
+/* Footer start */
+.footer__title {
+  font-family: "Poppins";
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: 600;
+  color: var(--body-title);
+  margin-bottom: 16px;
+}
+
+.footer__list {
+  padding-left: 0;
+  list-style: none;
+}
+
+.footer__link {
+  display: inline-block;
+  font-size: 14px;
+  line-height: 19px;
+  color: #6A983C;
+  text-decoration: none;
+}
+
+.footer__span {
+  display: inline-block;
+  font-family: "Poppins";
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 600;
+  padding: 4px 10px;
+  color: var(--body-title);
+  background-color: #f5f5f5;
+  margin-right: 16px;
+  margin-bottom: 16px;
+  border-radius: 12px;
+}
+
+.footer__text {
+  font-size: 14px;
+  line-height: 19px;
+  font-weight: 500;
+  margin-bottom: 64px;
+  color: var(--body-title);
+}
+
+/* Footer end *//*# sourceMappingURL=main.css.map */
