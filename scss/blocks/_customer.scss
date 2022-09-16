@@ -1,0 +1,121 @@
+/* Customer start */
+
+.customer {
+    padding-top: 142px;
+}
+
+.customer__card {
+    position: relative;
+    max-width: 369px;
+    width: 100%;
+    padding: 24px 32px 40px;
+    border: 1px solid #f1f1f1;
+    border-radius: 12px;
+    cursor: pointer;
+    &::after {
+        position: absolute;
+        left: calc(50% - 33px);
+        bottom: -22px;
+        width: 48px;
+        height: 48px;
+        background-image: url("../images/carousel-roundedmimg-2.png");
+        background-repeat: no-repeat;
+        content: "";
+    }
+}
+
+.customer__card-two::after {
+    background-image: url("../images/carousel-roundedmimg-3.png");   
+}
+
+.customer__four::after {
+    background-image: url("../images/slider-imag.png");
+}
+
+
+.customer__text {
+    font-family: 'Poppins';
+    font-size: 15px;
+    line-height: 22px;
+    font-weight: 500;
+    text-align: center;
+    color:var(--body-title);
+}
+
+.customer__name {
+    display: block;
+    font-family: 'Poppins';
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: 600;
+    text-align: center;
+    color:#a9a9a9;
+}
+
+.slick-prev {
+    position: relative;
+    top: 130px;
+    width: 32px;
+    height: 42px;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.25);
+    z-index: 9999;
+    border: none;
+    outline: none;
+    display: none !important;
+    background-color: var(--body-title);
+    border-radius: 0 12px 12px 0;
+    &::after {
+        position: absolute;
+        top: 5px;
+        left: 0;
+        background-image: url("../images/ic-chevron-left.svg");
+        background-repeat: no-repeat;
+        width: 24px;
+        height: 24px;
+        content: "";
+    }
+}
+
+.slick-next {
+    position: relative;
+    top: -136px;
+    left: 98%;
+    width: 32px;
+    height: 42px;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.25);
+    z-index: 9999;
+    border: none;
+    outline: none;
+    display: none !important;
+    background-color: var(--body-title);
+    border-radius: 12px 0 0 12px;
+    &::after {
+        position: absolute;
+        top: 5px;
+        left: 0;
+        background-image: url("../images/ic-chevron-right.svg");
+        background-repeat: no-repeat;
+        width: 24px;
+        height: 24px;
+        content: "";
+    }
+}
+
+
+@include mobile-first (992px) {
+    .slick-next , .slick-prev {
+        display: block !important;
+    }
+
+    .slick-next  {
+        top: -155px;
+    }
+}
+
+@include mobile-first (1160px) {
+    .slick-next  {
+        top: -134px;
+    }
+}
+
+/* Customer end */
