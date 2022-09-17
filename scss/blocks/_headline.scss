@@ -1,0 +1,35 @@
+/* customer start */
+
+.headline {
+    padding:135px 0;
+}
+
+.headline__title  {
+    font-family: "Poppins";
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 600;
+    color:var(--body-title);
+}
+
+.headline__button {
+    position: relative;
+    font-family: "Poppins";
+    font-size: 15px;
+    line-height: 22px;
+    font-weight: 700;
+    border: none;
+    background-color: transparent;
+    &::before {
+        position: absolute;
+        top: 7px;
+        right: -15px;
+        width: 16px;
+        height: 16px;
+        background-image: url(../images/right.svg);
+        background-repeat: no-repeat;
+        content: "";
+    }
+}
+
+/* customer end */

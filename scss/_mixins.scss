@@ -18,8 +18,6 @@
     }
 }
 
-
-
 @mixin list-unstyle{
     margin: 0;
     padding-left: 0;
@@ -35,11 +33,6 @@
     display: $display;
     text-decoration: none;
 }
-
-
-
-
-
 
 @mixin  bgRetinaImages{
     @media
