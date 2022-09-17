@@ -47,13 +47,13 @@
         </a>
         <div class="hero__images d-flex d-md-none">
           <img src="images/user-icon.svg" alt="user-icon">
-          <img src="images/cart-icon.svg" class="ms-4" alt="cart-icon">
+          <img src="images/cart-icon.svg" class="header__modal ms-4" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight" alt="cart-icon">
           <span class="hero__four">4</span>
         </div>
       </div>
       <div class="col-12 col-md-5">
-        <div class="input-wrapper input-group mb-3 mb-md-0">
-          <button class="btn btn-outline-secondary hero__dropdown pe-5" type="button" data-bs-toggle="dropdown" aria-expanded="false">All categories
+        <div class="input-group input-wrapper mb-3 mb-md-0">
+          <button class=" btn-outline-secondary hero__dropdown pe-5 ps-3" type="button" data-bs-toggle="dropdown" aria-expanded="false">All categories
           </button>
           <ul class="dropdown-menu">
             <li><a class="dropdown-item" href="#">Bakery</a></li>
@@ -65,13 +65,15 @@
             <li><a class="dropdown-item" href="#">Baby</a></li>
             <li><a class="dropdown-item" href="#">Pharmacy</a></li>
           </ul>
-          <input type="search" class="form-control hero__form ps-0" aria-label="Text input with dropdown button" placeholder="Search Products, categories ...">
+          <input type="search" class="form-control  hero__form" aria-label="Text input with dropdown button" placeholder="Search Products, categories ...">
         </div>
       </div>
       <div class="col-12 col-md-3">
         <div class="d-none d-md-flex justify-content-md-end align-items-center ">
-          <img src="images/user-icon.svg" alt="user-icon">
-          <img src="images/cart-icon.svg"  class="ms-5" alt="cart-icon">
+          <a href="./form.html">
+            <img src="images/user-icon.svg" alt="user-icon">
+          </a>
+          <img class="ms-5 header__js-modal" src="images/cart-icon.svg" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight" alt="cart-icon">
           <span class="hero__four hero__four-add">4</span>
         </div>
       </div>

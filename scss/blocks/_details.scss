@@ -176,7 +176,7 @@ p{
 }
 
 .wish,
-.compare{
+.details-compare{
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 700;
@@ -185,7 +185,7 @@ p{
     color: #151515;
 }
 
-.compare{
+.details-compare{
     margin-left: 60px;
 }
 
@@ -348,7 +348,7 @@ td{
         font-size: 14px;
     }
     
-    .compare{
+    .details-compare{
         margin-left: 20px;
         font-size: 14px;
     }
@@ -356,18 +356,18 @@ td{
 
 @include desktop-first(389px){
     .wish,
-    .compare{
+    .details-compare{
         font-size: 12px ;
     }
 }
 
 @include desktop-first(360px){
-    .compare{
+    .details-compare{
         margin-left: 10px;
     }
 
     .wish,
-    .compare{
+    .details-compare{
         font-size: 10px;
     }
 }
