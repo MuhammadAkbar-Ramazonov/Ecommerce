@@ -1,0 +1,675 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Details Page</title>
+    <link rel="stylesheet" href="./bootstrap-5.2.1-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+
+      <!-- Header top start -->
+  <div class="ecommerce-container pt-3 mb-5">
+    <div class="row d-md-flex border__bottom">
+      <div class="col-12 col-md-6 d-flex justify-content-between justify-content-md-start mb-3 mb-md-0">
+        <span class="header__top-span">
+          Chat with us
+        </span>
+        <a class="header__top-phone" href="tel:">+420 336 775 664</a>
+        <span class="header__top-com">info@freshnesecom.com</span>
+      </div>
+      <div class="col-12 col-md-6">
+        <ul class="header__top-list d-flex justify-content-center justify-content-md-end">
+          <li class="header__top-item">
+            <a class="header__top-link me-5 me-md-0" href="#">
+              Blog
+            </a>
+          </li>
+          <li class="header__top-item">
+            <a class="header__top-link me-5 me-md-0 ms-md-3 ms-lg-5" href="#">
+              About Us
+            </a>
+          </li>
+          <li class="header__top-item">
+            <a class="header__top-link ms-md-3 ms-lg-5" href="#">
+              Careers
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="row align-items-center pt-5">
+      <div class="col-12 col-md-4 mb-3 mb-md-0 d-flex align-items-center justify-content-between">
+        <a href="index.html">
+          <img src="images/site-logo.svg" alt="site-logo">
+        </a>
+        <div class="hero__images d-flex d-md-none">
+          <img src="images/user-icon.svg" alt="user-icon">
+          <img src="images/cart-icon.svg" class="ms-4" alt="cart-icon">
+          <span class="hero__four">4</span>
+        </div>
+      </div>
+      <div class="col-12 col-md-5">
+        <div class="input-wrapper input-group mb-3 mb-md-0">
+          <button class="btn btn-outline-secondary hero__dropdown pe-5" type="button" data-bs-toggle="dropdown" aria-expanded="false">All categories
+          </button>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Bakery</a></li>
+            <li><a class="dropdown-item" href="#">Fruit and vegetables</a></li>
+            <li><a class="dropdown-item" href="#">Meat and fish</a></li>
+            <li><a class="dropdown-item" href="#">Drinks</a></li>
+            <li><a class="dropdown-item" href="#">Kitchen</a></li>
+            <li><a class="dropdown-item" href="#">Special nutrition</a></li>
+            <li><a class="dropdown-item" href="#">Baby</a></li>
+            <li><a class="dropdown-item" href="#">Pharmacy</a></li>
+          </ul>
+          <input type="search" class="form-control hero__form ps-0" aria-label="Text input with dropdown button" placeholder="Search Products, categories ...">
+        </div>
+      </div>
+      <div class="col-12 col-md-3">
+        <div class="d-none d-md-flex justify-content-md-end align-items-center ">
+          <img src="images/user-icon.svg" alt="user-icon">
+          <img src="images/cart-icon.svg"  class="ms-5" alt="cart-icon">
+          <span class="hero__four hero__four-add">4</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Header top end -->
+  
+  <!-- Header start -->
+  <header class="header py-3 mb-3">
+    <div class="ecommerce-container">
+      <nav class="header__nav ps-4 ps-md-0">
+        <ul class="header__list mb-0 d-flex flex-column align-items-center flex-md-row flex-md-wrap">
+          <li class="header__item">
+            <div class="dropdown">
+              <button class="header__dropdown" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Bakery
+              </button>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Fruit and vegetables</a></li>
+                <li><a class="dropdown-item" href="#">Meat and fish</a></li>
+                <li><a class="dropdown-item" href="#">Drinks</a></li>
+                <li><a class="dropdown-item" href="#">Kitchen</a></li>
+                <li><a class="dropdown-item" href="#">Special nutrition</a></li>
+                <li><a class="dropdown-item" href="#">Baby</a></li>
+                <li><a class="dropdown-item" href="#">Pharmacy</a></li>
+              </ul>
+            </div>
+          </li>
+          <li class="header__item">
+            <div class="dropdown">
+              <button class="header__dropdown" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Fruit and vegetables
+              </button>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Bakery</a></li>
+                <li><a class="dropdown-item" href="#">Meat and fish</a></li>
+                <li><a class="dropdown-item" href="#">Drinks</a></li>
+                <li><a class="dropdown-item" href="#">Kitchen</a></li>
+                <li><a class="dropdown-item" href="#">Special nutrition</a></li>
+                <li><a class="dropdown-item" href="#">Baby</a></li>
+                <li><a class="dropdown-item" href="#">Pharmacy</a></li>
+              </ul>
+            </div>
+          </li>
+          <li class="header__item">
+            <div class="dropdown">
+              <button class="header__dropdown" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Meat and fish
+              </button>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Fruit and vegetables</a></li>
+                <li><a class="dropdown-item" href="#">Bakery</a></li>
+                <li><a class="dropdown-item" href="#">Drinks</a></li>
+                <li><a class="dropdown-item" href="#">Kitchen</a></li>
+                <li><a class="dropdown-item" href="#">Special nutrition</a></li>
+                <li><a class="dropdown-item" href="#">Baby</a></li>
+                <li><a class="dropdown-item" href="#">Pharmacy</a></li>
+              </ul>
+            </div>
+          </li>
+          <li class="header__item">
+            <div class="dropdown">
+              <button class="header__dropdown" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Drinks
+              </button>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Fruit and vegetables</a></li>
+                <li><a class="dropdown-item" href="#">Meat and fish</a></li>
+                <li><a class="dropdown-item" href="#">Bakery</a></li>
+                <li><a class="dropdown-item" href="#">Kitchen</a></li>
+                <li><a class="dropdown-item" href="#">Special nutrition</a></li>
+                <li><a class="dropdown-item" href="#">Baby</a></li>
+                <li><a class="dropdown-item" href="#">Pharmacy</a></li>
+              </ul>
+            </div>
+          </li>
+          <li class="header__item">
+            <div class="dropdown">
+              <button class="header__dropdown" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Kitchen
+              </button>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Fruit and vegetables</a></li>
+                <li><a class="dropdown-item" href="#">Meat and fish</a></li>
+                
+                <li><a class="dropdown-item" href="#">Drinks</a></li>
+                <li><a class="dropdown-item" href="#">Bakery</a></li>
+                <li><a class="dropdown-item" href="#">Special nutrition</a></li>
+                <li><a class="dropdown-item" href="#">Baby</a></li>
+                <li><a class="dropdown-item" href="#">Pharmacy</a></li>
+              </ul>
+            </div>
+          </li>
+          <li class="header__item">
+            <div class="dropdown">
+              <button class="header__dropdown" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Special nutrition
+              </button>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Fruit and vegetables</a></li>
+                <li><a class="dropdown-item" href="#">Meat and fish</a></li>
+                <li><a class="dropdown-item" href="#">Drinks</a></li>
+                <li><a class="dropdown-item" href="#">Kitchen</a></li>
+                <li><a class="dropdown-item" href="#">Bakery</a></li>
+                <li><a class="dropdown-item" href="#">Baby</a></li>
+                <li><a class="dropdown-item" href="#">Pharmacy</a></li>
+              </ul>
+            </div>
+          </li>
+          <li class="header__item">
+            <div class="dropdown">
+              <button class="header__dropdown" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Baby
+              </button>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Fruit and vegetables</a></li>
+                <li><a class="dropdown-item" href="#">Meat and fish</a></li>
+                <li><a class="dropdown-item" href="#">Drinks</a></li>
+                <li><a class="dropdown-item" href="#">Kitchen</a></li>
+                <li><a class="dropdown-item" href="#">Special nutrition</a></li>
+                <li><a class="dropdown-item" href="#">Bakery</a></li>
+                <li><a class="dropdown-item" href="#">Pharmacy</a></li>
+              </ul>
+            </div>
+          </li>
+          <li class="header__item">
+            <div class="dropdown">
+              <button class="header__dropdown" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Pharmacy
+              </button>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Fruit and vegetables</a></li>
+                <li><a class="dropdown-item" href="#">Meat and fish</a></li>
+                <li><a class="dropdown-item" href="#">Drinks</a></li>
+                <li><a class="dropdown-item" href="#">Kitchen</a></li>
+                <li><a class="dropdown-item" href="#">Special nutrition</a></li>
+                <li><a class="dropdown-item" href="#">Baby</a></li>
+                <li><a class="dropdown-item" href="#">Bakery</a></li>
+              </ul>
+            </div>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <!-- Header end -->
+  
+
+    <main class="site-main">
+        
+        <section class="farm pb-5">
+            <div class="ecommerce-container">
+                <div class="row me-2">
+                    <div class="row-md-3 m-3 p-0">
+                        <nav aria-label="breadcrumb">
+                            <ol class="breadcrumb">
+                              <li class="breadcrumb-item"><a class="text-muted text-decoration-none" href="./index.html">Homepage</a></li>
+                              <li class="breadcrumb-item"><a class="text-muted text-decoration-none" href="./index.html">Fruit and vegetables</a></li>
+                              <li class="breadcrumb-item" aria-current="page">Carrots from Tomissy Farm</li>
+                            </ol>
+                        </nav>
+                    </div>
+                </div>
+                <div class="row all-details">
+                    <div class="carrot-images col-lg-6 col-md-6 col-sm-12">
+                        <div class="img-box">
+                            <img class="carrot" src="./images/carrot.jpg"
+                            alt="Farm carrot">
+                            <span class="green   rounded-pill">-36%</span>
+                            <span class="green green-ship   rounded-pill">Free shipping</span>
+                        </div>
+                        <div class="img-box mt-5 ">
+                            <img class="carrot" src="./images/carrot.jpg"
+                            alt="Farm carrot">
+                            </div>
+                            <div class="img-box mt-5">
+                                <img class="carrot" src="./images/carrot.jpg"
+                                alt="Farm carrot">
+                            </div>
+                        </div>
+                        
+                        <div class="top-details  col-lg-6 col-md-6 col-sm-12">
+                            <h2 class="farm-title mt-lg-0 mt-4">
+                                Carrots from Tomissy Farm
+                            </h2>
+                            
+                            <div class="stars">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#FDBC15" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#FDBC15" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#FDBC15" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#FDBC15" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#D1D1D1" class="bi bi-star" viewBox="0 0 16 16">
+                                    <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288L8 2.223l1.847 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.565.565 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"/>
+                                </svg>
+                                
+                                <span class="review">(1 customer review)</span>
+                            </div>
+                            
+                            <div class="c-text">
+                                <p class="carrot-text">Carrots from Tomissy Farm are one of the best on the market. Tomisso and his family are giving a full love to his Bio products. Tomisso’s carrots are growing on the fields naturally.</p>
+                            </div>
+                            
+                            <div class="carrot-details row">
+                                <div class="name-infos col-lg-6 ">
+                                    <div class="name-all row">
+                                        <p class="col-6 name-title align-content-start">SKU:</p>
+                                        <p class="name-details col-6 
+                                        ">76645</p>
+                                    </div>
+                                    <div class="name-all row">
+                                        <p class="name-title align-content-start col-6">Category:</p>
+                                        
+                                        <p class="name-details text-decoration-underline col-6
+                                        ">Vegetables</p>
+                                    </div>
+                                    <div class="name-all row">
+                                        <p class="name-title align-content-start col-6">Stock:</p>
+                                        
+                                        <p class="name-details text-decoration-underline col-6 
+                                        "><a class="text-green" href="#">In Stock</a></p>
+                                    </div>
+                                    <div class="name-all row">
+                                        <p class="name-title col-6">Farm</p>
+                                        
+                                        <p class="name-details col-6 
+                                        ">Grocery Tarm Fields</p>
+                                    </div>
+                                    
+                                </div>
+                                <div class="quantity col-lg-6 mt-lg-0 mt-5">
+                                    <div class="name-all row">
+                                        <p class="col-6 name-title align-content-start">Freshness:</p>
+                                        <p class="name-details col-6 
+                                        ">1 days old</p>
+                                    </div>
+                                    <div class="name-all row">
+                                        <p class="name-title align-content-start col-6">Buy by:</p>
+                                        
+                                        <p class="name-details col-6
+                                        ">pcs, kgs, box, pack</p>
+                                    </div>
+                                    <div class="name-all row">
+                                        <p class="name-title align-content-start col-6">Delivery:</p>
+                                        
+                                        <p class="name-details  col-6 
+                                        ">in 2 days</p>
+                                    </div>
+                                    <div class="name-all row">
+                                        <p class="name-title col-6">Delivery area:</p>
+                                        
+                                        <p class="name-details col-6 
+                                        ">Czech republic</p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="d-flex align-items-center  price-box">
+                                <div class="">
+                                    <p class="price-num">36.23 USD</p>
+                                    <del class="price-del">48.56 USD</del>
+                                </div>
+                                <div class=" c-select  ms-auto">
+                                    <div class="c-row d-flex  align-items-center">
+                                        <div class="left-select me-1 ">
+                                            <p class="one">1</p>
+                                        </div>
+                                        <div class="">
+                                            <select class="form-select select-bg" id="floatingSelect" aria-label="Floating label select example">
+                                                <option selected class="pcs">Pcs</option>
+                                                <option value="1">One</option>
+                                                <option value="2">Two</option>
+                                                <option value="3">Three</option>
+                                            </select>
+                                        </div>
+                                    </div> 
+                                </div>
+                                <div class="ms-2 btn-box">
+                                    <a href="#" class="btn btn-success cart ">
+                                        + Add to cart
+                                    </a>
+                                </div>
+                            </div>
+                            
+                            <div class="definition mt-3">
+                                <span class="wish">
+                                    <svg class="heart"width="16" height="15" viewBox="0 0 16 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M8.70094 2.76016C9.33746 2.12365 10.2008 1.76605 11.1009 1.76605C12.0011 1.76605 12.8644 2.12365 13.5009 2.76016C14.1375 3.39668 14.4951 4.25999 14.4951 5.16016C14.4951 6.06034 14.1375 6.92364 13.5009 7.56016L12.6276 8.4335L7.8276 13.2335L3.0276 8.4335L2.15427 7.56016C1.51775 6.92364 1.16016 6.06034 1.16016 5.16016C1.16016 4.25999 1.51775 3.39668 2.15427 2.76016C2.79079 2.12365 3.65409 1.76605 4.55427 1.76605C5.45444 1.76605 6.31775 2.12365 6.95427 2.76016L7.8276 3.6335L8.70094 2.76016Z" stroke="#E6704B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                    Add to my wish list
+                                </span>
+                                <span class="compare ">
+                                    <svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <g clip-path="url(#clip0_5434_37867)">
+                                            <path d="M7.16211 1.83322H4.49544C3.75906 1.83322 3.16211 2.43018 3.16211 3.16655V5.83322C3.16211 6.5696 3.75906 7.16655 4.49544 7.16655H7.16211C7.89849 7.16655 8.49544 6.5696 8.49544 5.83322V3.16655C8.49544 2.43018 7.89849 1.83322 7.16211 1.83322Z" stroke="#E6704B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                            <path d="M7.16211 9.83322H4.49544C3.75906 9.83322 3.16211 10.4302 3.16211 11.1666V13.8332C3.16211 14.5696 3.75906 15.1666 4.49544 15.1666H7.16211C7.89849 15.1666 8.49544 14.5696 8.49544 13.8332V11.1666C8.49544 10.4302 7.89849 9.83322 7.16211 9.83322Z" stroke="#E6704B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                            <path d="M14.4961 11.1664H10.4961" stroke="#E6704B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                            <path d="M13.1628 13.8332H10.4961" stroke="#E6704B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                            <path d="M13.1628 5.83322H10.4961" stroke="#E6704B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                            <path d="M14.4961 3.16644H10.4961" stroke="#E6704B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                        </g>
+                                        <defs>
+                                            <clipPath id="clip0_5434_37867">
+                                                <rect width="16" height="16" fill="white" transform="translate(0.828125 0.5)"/>
+                                            </clipPath>
+                                        </defs>
+                                    </svg>
+                                    Compare
+                                </span>
+                            </div>
+                            
+                            <ul class="description list-unstyled mt-5">
+                                <li class="desctiption-item title-active">
+                                    <button type="button" class="btn descriptin-title">
+                                        Description 
+                                    </button>
+                                </li>
+                                <li class="desctiption-item">
+                                    <button type="button" class="btn descriptin-title ">
+                                        Reviews <span class="badge badge-colors">18</span>
+                                    </button>
+                                </li>
+                                <li class="desctiption-item">
+                                    <button type="button" class="btn descriptin-title">
+                                        Questions <span class="badge badge-colors">4</span>
+                                    </button>
+                                </li>
+                            </ul>
+                            
+                            <div class="desc ">
+                                <p class="desc-title ">
+                                    Origins
+                                </p>
+                                <p class="desc-text mb-3">
+                                    We work hard to ensure that the fruit and vegetables we sell are fresh and high in quality. If we don’t grow them ourselves, we source them from carefully chosen suppliers, preferring to buy locally whenever possible.
+                                </p>
+                                
+                                <p class="desc-title">
+                                    How to cook
+                                </p>
+                                <p class="desc-text">
+                                    From roasts, salads and soups to casseroles and cakes, Carrots will lend sweetness, texture and colour to an enormous number of recipes.
+                                </p>
+                            </div>
+                            
+                            <div class="vitamin mt-4 mb-4">
+                                <p class="full">Full of Vitamins!</p>
+                            </div>
+                            
+                            <table class="farm-table table mt-5">
+                                <thead>
+                                    <tr>
+                                        <th class="details-table-heading">Vitamins</th>
+                                        <th class="details-table-heading">Quantity</th>
+                                        <th class="details-table-heading">% DV</th>
+                                    </tr>
+                                </thead>
+                                
+                                <tbody>
+                                    <tr>
+                                        <td>Thiamine (B1)</td>
+                                        <td>0.066 mg</td>
+                                        <td>6 %</td>
+                                    </tr>
+                                    
+                                    <tr>
+                                        <td>Niacin (B3)</td>
+                                        <td>0.983 mg</td>
+                                        <td>7 %</td>
+                                    </tr>
+                                    
+                                    <tr>
+                                        <td>Folate (Bg)</td>
+                                        <td>19 μg</td>
+                                        <td>5 %</td>
+                                    </tr>
+                                    
+                                    <tr>
+                                        <td>Vitamin C</td>
+                                        <td>5.9 mg</td>
+                                        <td>7 %</td>
+                                    </tr>
+                                    
+                                    <tr>
+                                        <td>Vitamin E</td>
+                                        <td>0.66 mg</td>
+                                        <td>4 %</td>
+                                    </tr>
+                                    
+                                    <tr>
+                                        <td>Vitamin K</td>
+                                        <td>13.2</td>
+                                        <td>13 %</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <section class="detail-products pt-3 pb-5">
+                <div class="ecommerce-container">
+                    <div class="topics d-flex justify-content-between mb-3">
+                        <p class="related">
+                            Related products
+                        </p>
+                        <span class="more d-block">
+                            More products
+                            <svg class="ms-3" width="6" height="10" viewBox="0 0 6 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M1.5332 8.18663L4.2732 5.44663C4.39737 5.32172 4.46706 5.15276 4.46706 4.97663C4.46706 4.80051 4.39737 4.63154 4.2732 4.50663L1.60654 1.83997" stroke="#6A983C" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="bevel"/>
+                            </svg>
+                            
+                        </span>
+                    </div>
+                    
+                    <ul class="detail-product-list list-unstyled mb-5">
+                        <li class="detail-pr-item">
+                            <img class="pr-img " src="./images/carrot.jpg" alt="Carrot">
+                            <p class="pr-item-title">Product Title</p>
+                            <p class="pr-item-text">
+                                Space for a small product description 
+                            </p>
+                            <div class="pr-prices">
+                                <p class="pr-price-text">3.26 USD</p>
+                                <a href="#" class="btn btn-success buyme">Buy now</a>
+                            </div>
+                        </li>
+                        <li class="detail-pr-item">
+                            <img class="pr-img " src="./images/carrot.jpg" alt="Carrot">
+                            <p class="pr-item-title">Product Title</p>
+                            <p class="pr-item-text">
+                                Space for a small product description 
+                            </p>
+                            <div class="pr-prices">
+                                <p class="pr-price-text">3.26 USD</p>
+                                <a href="#" class="btn btn-success buyme">Buy now</a>
+                            </div>
+                        </li>
+                        <li class="detail-pr-item">
+                            <img class="pr-img " src="./images/carrot.jpg" alt="Carrot">
+                            <p class="pr-item-title">Product Title</p>
+                            <p class="pr-item-text">
+                                Space for a small product description 
+                            </p>
+                            <div class="pr-prices">
+                                <p class="pr-price-text">3.26 USD</p>
+                                <a href="#" class="btn btn-success buyme">Buy now</a>
+                            </div>
+                        </li>
+                        <li class="detail-pr-item">
+                            <img class="pr-img " src="./images/carrot.jpg" alt="Carrot">
+                            <p class="pr-item-title">Product Title</p>
+                            <p class="pr-item-text">
+                                Space for a small product description 
+                            </p>
+                            <div class="pr-prices">
+                                <p class="pr-price-text">3.26 USD</p>
+                                <a href="#" class="btn btn-success buyme">Buy now</a>
+                            </div>
+                        </li>
+                        
+                    </ul>
+                </div>
+            </section>
+            
+    </main>
+
+<!-- Footer start -->
+
+  <footer class="footer">
+    <div class="ecommerce-container">
+      <div class="row mb-5">
+        <div class="col-12 col-md-6 col-lg-3">
+          <h2 class="footer__title text-center text-lg-start">
+            Get in touch
+          </h2>
+          <ul class="footer__list text-center text-lg-start">
+            <li class="footer__item">
+              <a class="footer__link mb-3" href="#">About Us</a>
+            </li>
+            <li class="footer__item">
+              <a class="footer__link mb-3" href="#">Careers</a>
+            </li>
+            <li class="footer__item">
+              <a class="footer__link mb-3" href="#">Press Releases</a>
+            </li>
+            <li class="footer__item">
+              <a class="footer__link mb-3" href="#">Blog</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-12 col-md-6 col-lg-3">
+          <h2 class="footer__title text-center text-lg-start">
+            Connections
+          </h2>
+          <ul class="footer__list text-center text-lg-start">
+            <li class="footer__item">
+              <a class="footer__link mb-3" href="#">Facebook</a>
+            </li>
+            <li class="footer__item">
+              <a class="footer__link mb-3" href="#">Twitter</a>
+            </li>
+            <li class="footer__item">
+              <a class="footer__link mb-3" href="#">Instagram</a>
+            </li>
+            <li class="footer__item">
+              <a class="footer__link mb-3" href="#">Youtube</a>
+            </li>
+            <li class="footer__item">
+              <a class="footer__link mb-3" href="#">LinkedIn</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-12 col-md-6 col-lg-3">
+          <h2 class="footer__title text-center text-lg-start">
+            Earnings
+          </h2>
+          <ul class="footer__list text-center text-lg-start">
+            <li class="footer__item">
+              <a class="footer__link mb-3" href="#">Become an Affiliate</a>
+            </li>
+            <li class="footer__item">
+              <a class="footer__link mb-3" href="#">Advertise your product</a>
+            </li>
+            <li class="footer__item">
+              <a class="footer__link mb-3" href="#">Sell on Market</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-12 col-md-6 col-lg-3">
+          <h2 class="footer__title text-center text-lg-start">
+            Account
+          </h2>
+          <ul class="footer__list text-center text-lg-start">
+            <li class="footer__item">
+              <a class="footer__link mb-3" href="#">Your account</a>
+            </li>
+            <li class="footer__item">
+              <a class="footer__link mb-3" href="#">Returns Centre</a>
+            </li>
+            <li class="footer__item">
+              <a class="footer__link mb-3" href="#">100 % purchase protection</a>
+            </li>
+            <li class="footer__item">
+              <a class="footer__link mb-3" href="#">Chat with us</a>
+            </li>
+            <li class="footer__item">
+              <a class="footer__link" href="#">Help</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="row mb-5">
+        <div class="col-12">
+          <h2 class="footer__title text-center text-md-start">
+            Product tags
+          </h2>
+          <div class="d-flex flex-wrap">
+            <span class="footer__span">Beans</span>
+            <span class="footer__span">Carrots</span>
+            <span class="footer__span">Apples</span>
+            <span class="footer__span">Garlic</span>
+            <span class="footer__span">Mushrooms</span>
+            <span class="footer__span">Tomatoes</span>
+            <span class="footer__span">Chilli peppers</span>
+            <span class="footer__span">Broccoli</span>
+            <span class="footer__span">Watermelons</span>
+            <span class="footer__span">Oranges</span>
+            <span class="footer__span">Bananas</span>
+            <span class="footer__span">Grapes</span>
+
+<span class="footer__span">Cherries</span>
+            <span class="footer__span">Meat</span>
+            <span class="footer__span">Seo tag</span>
+            <span class="footer__span">Fish</span>
+            <span class="footer__span">Seo tag</span>
+            <span class="footer__span">Fresh food</span>
+            <span class="footer__span">Lemons</span>
+          </div>
+        </div>
+      </div>
+      <p class="footer__text">
+        Copyright © 2020 petrbilek.com
+      </p>
+    </div>
+  </footer>
+
+  <!-- Footer end -->
+    
+    <script src="./bootstrap-5.2.1-dist/js/bootstrap.bundle.min.js"></script>
+    <script src=" s/main.js"></script>
+</body>
+</html>
